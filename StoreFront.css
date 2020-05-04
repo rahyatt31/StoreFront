@@ -1,0 +1,215 @@
+#top {background-image: url(/Users/robbiehyatt/Desktop/ElevenFifty/ElevenFiftyProjects/StoreFrontAssignment/Images/BlackBackgroundHeader.jpg);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 1500px;}
+
+h1 {font-size: 60px;
+    color: silver;
+    padding: 0px 30px;
+    font-weight: bold;
+    text-decoration: underline;}
+
+
+
+
+
+ul {padding: 0px 0px;
+    overflow: hidden;
+    background-color: black;}
+
+li {float: left;}
+    
+li a {display: inline-block;
+      color: silver;
+      text-align: center;
+      padding: 20px 32.781px;
+      text-decoration: none;
+      font-weight: bold;}
+    
+
+.dropmenu {display: inline-block;
+             color: silver;
+             text-align: center;
+             padding: 20px 32.781px;
+             text-decoration: none;
+             font-weight: bold;}
+    
+li a:hover {background-color: silver;
+            color: black;
+            transition: ease-in .75s;}   
+
+li.dropdown {display: inline-block;}
+    
+.dropdown-content {display: none;
+                   position: absolute;
+                   background-color: silver;
+                   min-width: 200px;
+                   box-shadow: 0px 8px 16px 0px black;
+                   z-index: 2;}
+                
+    
+.dropdown-content a {color: black;
+                     padding: 15px 25px;
+                     text-decoration: none;
+                     display: block;
+                     text-align: left;}
+    
+.dropdown-content a:hover {background-color: white;}
+    
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+.testimonials {position: absolute;
+               top: 280px;
+               left: 560px;
+               text-decoration: none;
+               font-size: 40px;
+               font-weight: bold;
+               color: silver;
+               z-index: 1;}
+
+
+
+
+.test1 {background-color: silver;
+        border: solid 3px black;
+        border-top-left-radius: 15%;
+        box-shadow: 10px 10px 15px 10px black;
+        margin: 50px 0px 0px 5%;
+        padding: 0px 25px 0px 25px;
+        width: 20%;
+        position: absolute;
+        top: 400px;
+        left: 0px;
+        z-index: 1;}
+
+.test1:hover {color: silver;
+              background-color: black;
+              box-shadow: 10px 10px 15px 15px silver;
+              transition: ease-in .75s;}
+
+.test2 {background-color: silver;
+        border: solid 3px black;
+        border-top-left-radius: 15%;
+        box-shadow: 10px 10px 15px 10px black;
+        margin: 50px 0px 0px 5%;
+        padding: 0px 25px 0px 25px;
+        width: 20%;
+        position: absolute;
+        top: 400px;
+        left: 475px;
+        z-index: 1;}
+
+.test2:hover {color: silver;
+              background-color: black;
+              box-shadow: 10px 10px 15px 15px silver;
+              transition: ease-in .75s;}
+
+.test3 {background-color: silver;
+        border: solid 3px black;
+        border-top-left-radius: 15%;
+        box-shadow: 10px 10px 15px 10px black;
+        margin: 50px 0px 0px 5%;
+        padding: 0px 25px 0px 25px;
+        width: 20%;
+        position: absolute;
+        top: 400px;
+        left: 948px;
+        z-index: 1;}
+
+.test3:hover {color: silver;
+              background-color: black;
+              box-shadow: 10px 10px 15px 15px silver;
+              transition: ease-in .75s;}
+
+
+
+
+
+hr.solid1 {background-color: black;
+           position: relative;
+           top: 100px;
+           border: none;
+           height: 80px}
+
+hr.solid2 {background-color: black;
+           position: relative;
+           top: 525px;
+           border: none;
+           height: 80px}
+
+
+
+.directions {position: absolute;
+             top: 853px;
+             left: 11%;
+             color: white;
+             font-size: 40px;}
+
+.socialmedia {position: absolute;
+             top: 853px;
+             left: 60%;
+             color: white;
+             font-size: 40px;}
+
+
+
+
+.map {position: absolute;
+      top: 975px;
+      left: 6%;}
+
+.facebook img {border-radius: 35%;}
+
+.facebook {position: absolute;
+           top: 975px;
+           left: 825px;}
+
+.facebook img:hover {height: 200px;
+                     width: 200px;
+                     transition: ease-in .75s;}
+
+.twitter img {border-radius: 35%;}
+
+.twitter {position: absolute;
+          top: 975px;
+          left: 1025px;}
+
+.twitter img:hover {height: 200px;
+                    width: 200px;
+                    transition: ease-in .75s;}
+
+.instagram img {border-radius: 35%;}
+
+
+.instagram {position: absolute;
+            top: 1175px;
+            left: 825px;}
+
+.instagram img:hover {height: 200px;
+                      width: 200px;
+                      transition: ease-in .75s;}
+
+.youtube img {border-radius: 35%;}
+
+
+.youtube {position: absolute;
+          top: 1175px;
+          left: 1025px;}
+
+.youtube img:hover {height: 200px;
+                    width: 200px;
+                    transition: ease-in .75s;}
+
+/* Footer */
+
+ul.menufooter {position: absolute;
+               list-style-type: none;
+               bottom: -16px;
+               right: 0px;
+               text-decoration: none;}
+        
